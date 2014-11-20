@@ -14,7 +14,7 @@
 		<ul class="nav navbar-nav navbar-right">
 			<% if session[:user_id].nil? %>
 			<li><a href="/users/signup">회원가입</a></li>
-			</li><a href="/users/login">로그인</a></li>
+			<li><a href="/users/login">로그인</a></li>
 			<% else %>
 			<li><a href="/users/logout_complete">로그아웃</a></li>
 			<% end %>
