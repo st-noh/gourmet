@@ -12,3 +12,6 @@ end
 		end
 	end
 
+	def login_id
+		@login_id = User.find(session[:user_id])
+	end
